@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="frame2">
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Abrir outro frame</label>
+			<pos>136,128</pos>
+			<size>102,56</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Outro frame</label>
+			<pos>152,32</pos>
+		</object>
+	</object>
+</wxsmith>
