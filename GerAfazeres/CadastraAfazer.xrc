@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxDialog" name="CadastraAfazer">
+		<title>CADASTRO DE AFAZER</title>
+		<centered>1</centered>
+		<size>669,450</size>
+		<object class="wxStaticText" name="ID_STATICTEXT1">
+			<label>PRIORIDADE:</label>
+			<pos>15,45</pos>
+			<size>70,16</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1">
+			<pos>144,40</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2">
+			<label>DATA DE CRIAÇÃO: </label>
+			<pos>16,80</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3">
+			<label>DESCRIÇÃO: </label>
+			<pos>192,136</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3">
+			<pos>16,160</pos>
+			<size>456,272</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1">
+			<label>CADASTRAR</label>
+			<pos>392,64</pos>
+		</object>
+		<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL1">
+			<pos>144,80</pos>
+		</object>
+	</object>
+</resource>
